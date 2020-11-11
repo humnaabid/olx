@@ -1,38 +1,151 @@
-.App {
-  text-align: center;
+.navbar-brand img{
+  width: 30%;
+  height:9%;
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  display: inline-block;
 }
+.form-inline input{
+  width: 500px !important;
+  border: 2px solid black;
+  padding: 10px !important;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+}
+@media only screen and (max-width: 600px){
+  .form-inline input{
+    width: 80% !important;
+  
+  }
+  .img-fluid{
+    height: 20%!important;
+
+  }
+  
+  .images{
+    width: 40% !important;
+    height: 20% !important;
+
   }
 }
+.btn{
+  border-radius: 9px;
+  padding: 7px;
+  margin: 3px;
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+input{
+  padding: 10px !important;
+}
+.navbar{
+  position: sticky fixed !important;
+ 
+}
+.nav-link{
+  color: black !important;
 }
 
-.App-link {
-  color: #61dafb;
+.card{
+  display: flex !important;
+  float: right !important ;
+  float: left !important ;
+  margin: 20px ;
+  flex-wrap: wrap !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sticky-end{
+vertical-align: bottom;
+align-self: baseline;
+
+}
+.fixed{
+  box-sizing: border-box !important;
+  border-radius: 2px;
+  background-color:gainsboro ;
+  padding: 20px;
+  padding-top: 4px;
+ width: 100%;
+ 
+  
+}
+.footer{
+  background-color: darkslategray;
+ color: whitesmoke;
+ width: 100%;
+ padding: 7px ;
+ text-align-last: right;
+ 
+}
+.bi{margin-left: 20px !important;}
+.right1{
+ 
+display: inline-block;
+align-self: flex-end;
+}
+i{
+ font-weight: bold;
+}
+
+.nav-item{
+    margin-top: 23px !important;
+    margin-right: 9px !important;
+}
+.button:focus {
+ background-color: yellowgreen;
+
+
+}
+.container-fluid{background-color: white !important;}
+
+
+.images{
+width: 800px!important;
+height: 500px !important;
+
+}
+.juh{
+  background-color: black !important;
   }
-  to {
-    transform: rotate(360deg);
+  .box{
+    width: 800px !important;
+      border: 2px solid grey;
+      height: 20% !important;
+      padding:40px;
+      margin-left: 30px;
+      margin-bottom: 30px;
   }
+  .cw{
+    border: 2px solid grey;
+    margin-top: 20px;
+      padding: 40px !important;
+
+  }
+  .map{
+    margin-top: 10px;
+      
+
+  }
+  .form{
+      border: 2px solid gainsboro;
+      width: 70% !important;
+      background-color: white !important;
+      margin-bottom: 25px;
+      margin-top: 20px;
+    
+    }
+.button:focus{
+  background-color: teal;
+
+}
+.button{
+  padding: 6px;
+  border-radius: 9px !important;
+}
+.details{
+  text-align: left;
+}
+.login{
+  border:white;
 }
